@@ -81,8 +81,10 @@
     }
     .box6_img{
         grid-template-columns: repeat(1, minmax(100px, 360px));
-        margin: 0px 15px;
+        margin:0px 15px;
+        margin-bottom: 30px;
     }
+    
     .box4lines{
         grid-template-columns: repeat(1, minmax(100px, 360px));
     }
@@ -110,12 +112,11 @@
     .textfooter{
         font-size: 30%;
     }
+    .box{
+        text-align: center;
+        align-content: center;
+        height: 80%;
+    }
     
 }
 
-/* Desktop */
-/* @media (min-width: 881px) {
-  .menu-icon {
-    display: none;
-  }
-} */
