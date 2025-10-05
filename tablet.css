@@ -2,6 +2,14 @@
     .box6_img{
         grid-template-columns: repeat(2, minmax(100px, 500px));
     }
+    .button{
+        height: 50px;
+        width: 100px;
+    }
+    nav a{
+        padding: 10px 20px;
+        margin-left: 10px;
+    }
     .imgtext{
         font-size: clamp(15px, 1vh, 20px);
     }
