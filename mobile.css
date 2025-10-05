@@ -12,6 +12,9 @@
 
 /* Mobile */
 @media (max-width: 780px) {
+    .hero_text{
+        top: 20%;
+    }
     header {
         justify-content: space-between;
         padding: 10px 15px;
@@ -45,7 +48,6 @@
 
     }
 
-
     #menu-toggle:checked ~ nav {
         left: 0; /* Kéo vô màn hình */
     }
@@ -69,12 +71,18 @@
         padding: 30px 15px;
         gap: 20px;
     }
+    .container2{
+        padding: 0px 15px;
+    }
+    .container3{
+        padding: 0px 15px;
+    }
     .image{
         width: 100%;
     }
     .titlebox{
         width: 100%;
-        padding: 0 0;
+        padding: 0px;
         /* display: grid; */
         /* grid-template-columns: repeat(1, minmax(100px,360px)); */
        
@@ -89,7 +97,7 @@
     }
     .box6_img{
         grid-template-columns: repeat(1, minmax(100px, 360px));
-        margin:0px 15px;
+        margin:0px;
         margin-bottom: 30px;
     }
     
@@ -104,7 +112,7 @@
     }
     .mainbox4{
         padding: 0;
-        margin: 0 15px;
+        margin: 0;
     }
     .newsbox{
         grid-template-columns: repeat(1, minmax(100px, 360px));
@@ -112,7 +120,7 @@
     }
     .mainbox5{
         padding: 0px;
-        margin: 0 15px;
+        margin: 0 ;
     }
     .box4{
         grid-template-columns: repeat(4, minmax(10px, 30px));
@@ -128,6 +136,8 @@
     .imgtext:active{
         height: 60%;
     }
-    
+    .news{
+        padding: 0 15px;
+    }
 }
 
