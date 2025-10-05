@@ -83,13 +83,10 @@
     .titlebox{
         width: 100%;
         padding: 0px;
-        /* display: grid; */
-        /* grid-template-columns: repeat(1, minmax(100px,360px)); */
-       
+        
     }
 
     .title{
-        /* margin: 30px 15px 15px; */
         flex: unset;
         width: 100%;
         max-width: 360px;
@@ -133,9 +130,7 @@
         align-content: center;
         height: 80%;
     }
-    .imgtext:active{
-        height: 60%;
-    }
+    
     .news{
         padding: 0 15px;
     }
