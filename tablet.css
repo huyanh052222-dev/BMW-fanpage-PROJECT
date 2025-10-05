@@ -10,6 +10,9 @@
         padding: 10px 20px;
         margin-left: 10px;
     }
+    .imgtext:active{
+        height: 60%;
+    }
     .imgtext{
         font-size: clamp(15px, 1vh, 20px);
     }

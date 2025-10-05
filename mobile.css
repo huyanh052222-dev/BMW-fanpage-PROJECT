@@ -117,6 +117,9 @@
         align-content: center;
         height: 80%;
     }
+    .imgtext:active{
+        height: 60%;
+    }
     
 }
 
