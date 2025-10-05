@@ -85,7 +85,7 @@
         flex: unset;
         width: 100%;
         max-width: 360px;
-        margin: 30px 15px;
+        margin: 30px 1px;
     }
     .box6_img{
         grid-template-columns: repeat(1, minmax(100px, 360px));
@@ -111,7 +111,7 @@
         margin-bottom: 30px;
     }
     .mainbox5{
-        padding: 0;
+        padding: 0px;
         margin: 0 15px;
     }
     .box4{
